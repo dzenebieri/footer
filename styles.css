@@ -1,0 +1,79 @@
+body {
+  font-family: Arial Rounded MT Bold, Monaco, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.footerTitleACS {
+  text-decoration: none;
+  position: absolute;
+  color: #3ea6ff;
+  font-size: 36px;
+  top: 20%;
+  left: 20%;
+}
+
+.footerCS {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.footerCS ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.footerCS a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footerCS a:hover {
+  transition: 0.6s ease;
+  color: white;
+}
+
+.footerCS a:active {
+  opacity: .7;
+}
+
+.footerCS a:visited {
+  color: gray;
+}
+
+.footerCS a:visited:hover {
+  transition: 0.6s ease;
+  color: white;
+}
+
+.footerTopDivCS {
+  box-shadow: inset 0 1px 1px -1px gray, 0 -1px 1px -1px gray;
+  padding: 1px;
+}
+
+.footerTopDivCS:hover {
+  transition: 0.6s ease;
+  box-shadow: 0 0 5px gray;
+  margin: 0.5px 0px 0px 0.5px;
+}
+
+.footerBottomDivCS {
+  border-top: 0.5px solid gray;
+}
+
+.footerBottomDivCS:hover {
+  transition: 0.6s ease;
+  box-shadow: 0 0 5px gray;
+  margin: 0.5px 0px 0px 0.5px;
+  padding-bottom: 0.5px;
+}
